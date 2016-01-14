@@ -1,36 +1,36 @@
 var config = {
-    lang: 'nl',
+    lang: 'ru',
     time: {
-        timeFormat: 12
+        timeFormat: 24
     },
     weather: {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
+            q: 'Kursk,RU',
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'eng',
+            APPID: '3b7b44b961ea9055d66531bd20f0452a'
         }
     },
     compliments: {
         interval: 30000,
-        fadeInterval: 4000,
+        fadeInterval: 1000,
         morning: [
-            'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            'Доброе утро!',
+            'Хорошего дня!',
+            'Как спалось?'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'Добрый день',
+            'Хорошо выглядишь!',
+            'Что нового?'
         ],
         evening: [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            'Ух-ты! Выглядишь отлично!',
+            'Как прошел день?',
+            'Привет!'
         ]
     },
     calendar: {

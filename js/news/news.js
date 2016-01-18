@@ -1,6 +1,7 @@
 // A lot of this code is from the original feedToJson function that was included with this project
 // The new code allows for multiple feeds to be used but a bunch of variables and such have literally been copied and pasted into this code and some help from here: http://jsfiddle.net/BDK46/
 // The original version can be found here: http://airshp.com/2011/jquery-plugin-feed-to-json/
+//http://query.yahooapis.com/v1/test/console.html?q=select%20title%20from%20rss%20where%20url%3D%22https%3A%2F%2Fnews.yandex.ru%2Findex.rss%22
 var news = {
 	feed: config.news.feed || null,
 	newsLocation: '.news',

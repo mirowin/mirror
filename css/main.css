@@ -194,6 +194,19 @@ body, html {
 	display: none;
 }
 
+#calendar1 {
+	font-family: "HelveticaNeue-Medium";
+	text-align: center;
+	margin-top:25px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+#calendar1 #today{
+	background-color:white;
+	color:black;
+	border-radius: 5px;
+}
+
 @font-face {
   font-family: 'HelveticaNeue-UltraLight';
   src: url('font/HelveticaNeue-UltraLight.eot'); /* IE9 Compat Modes */

@@ -35,7 +35,7 @@ var config = {
     },
     calendar: {
         maximumEntries: 10,
-        url: "https://calendar.google.com/calendar/embed?src=shitikov.n%40gmail.com&ctz=Europe/Moscow"
+        url: "https://calendar.google.com/calendar/ical/shitikov.n%40gmail.com/public/basic.ics"
     },
     news: {
         feed: 'https://news.yandex.ru/hardware.rss'

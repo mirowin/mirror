@@ -12,7 +12,8 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
 <body>
-
+<div class="bl-wide"></div>
+<div class="w-wide"></div>
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div>
 
 <div>
@@ -41,6 +42,7 @@
 <script src="js/time/time.js" type="text/javascript"></script>
 <script src="js/news/news.js" type="text/javascript"></script>
 <script src="js/main.js?nocache=<?php echo md5(microtime()) ?>"></script>
+<script src="js/load.js"></script>
 <!-- <script src="js/socket.io.min.js"></script> -->
 
 </body>
